@@ -1,5 +1,5 @@
 import Header from "@/components/shared/Header";
-// import TransformationForm from "@/components/shared/TransformationForm";
+import TransformationForm from "@/components/shared/TransformationForm";
 import { transformationTypes } from "@/constants";
 import { getUserById } from "@/lib/actions/user.actions";
 import { auth } from "@clerk/nextjs";
@@ -18,7 +18,7 @@ const userId = user1.userId;
 
 if (!userId) {
   redirect("/sign-in");
-  return null; // Ensure the function returns something
+  return null;
 }
 
   const user = await getUserById(userId);
@@ -26,12 +26,14 @@ if (!userId) {
   return (
     <>
       <Header title={transformation.title} subtitle={transformation.subTitle} />
-      {/* <TransformationForm
+      <section className="mt-10">
+      <TransformationForm
         action="Add"
         userId={user._id}
         type={transformation.type as TransformationTypeKey}
         creditBalance={user.creditBalance}
-      /> */}
+      />
+      </section>
     </>
   );
 };

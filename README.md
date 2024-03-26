@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-You can view the hosted website here: [AI SaaS Platform](saa-s-project-bice.vercel.app)
+Check out the live demo of the project [here](https://saa-s-project-bice.vercel.app/).
 
 ## Introduction
 

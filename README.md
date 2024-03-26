@@ -1,6 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Introduction
+
+Develop an AI-driven image SaaS platform renowned for its robust image processing capabilities, seamless integration of secure payment systems, advanced image search features, and comprehensive support for various AI functionalities. These functionalities encompass image restoration, recoloring, object removal, generative filling, and background removal. This project serves as a blueprint for your future AI image tools and provides a significant enhancement to your portfolio.
+
+## Tech Stack
+Tech Stack
+Next.js
+TypeScript
+MongoDB
+Clerk
+Cloudinary
+Stripe
+Shadcn
+TailwindCSS
 
 First, run the development server:
 
